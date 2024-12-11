@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<BorderPane fx:controller="dad.biblioteca.controller.LibroController" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView fx:id="tableLibro" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="Titulo" prefWidth="282.4000244140625" text="Título" />
+          <TableColumn fx:id="Autor" prefWidth="316.79998779296875" text="Autor" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <HBox alignment="TOP_RIGHT" BorderPane.alignment="CENTER">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="200.0">
+              <items>
+                <Button fx:id="Nuevo" mnemonicParsing="false" onAction="#onNuevoAction" text="Nuevo" />
+                  <Button fx:id="Editar" mnemonicParsing="false" onAction="#onEditarAction" text="Editar" />
+                  <Button fx:id="Eliminar" mnemonicParsing="false" onAction="#onEliminarAction" text="Eliminar" />
+              </items>
+            </ToolBar>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

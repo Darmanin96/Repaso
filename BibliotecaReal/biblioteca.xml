@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<biblioteca>
+    <editoriales>
+        <nombre>McGraw-Hill</nombre>
+    </editoriales>
+    <editoriales>
+        <nombre>Prentice Hall</nombre>
+    </editoriales>
+    <libros>
+        <autor>Francesco Balena</autor>
+        <editorial>
+            <nombre>McGraw-Hill</nombre>
+        </editorial>
+        <fechaPublicacion>2006-05-10T00:00:00+01:00</fechaPublicacion>
+        <isbn>123-456-78</isbn>
+        <titulo>Programación Avanzada con Visual Basic .NET</titulo>
+    </libros>
+    <libros>
+        <autor>Andrew S. Tanenbaum</autor>
+        <editorial>
+            <nombre>Prentice Hall</nombre>
+        </editorial>
+        <fechaPublicacion>2008-09-25T00:00:00+01:00</fechaPublicacion>
+        <isbn>789-456-123</isbn>
+        <titulo>Redes de Computadoras</titulo>
+    </libros>
+</biblioteca>
