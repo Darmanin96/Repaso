@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
-    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/dad/biblioteca/controller/RootController.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/src/main/java/dad/biblioteca/modelo/Biblioteca.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/src/main/java/dad/biblioteca/modelo/Editorial.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/src/main/java/dad/biblioteca/modelo/Libro.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/src/main/java/dad/biblioteca/persistencia/Persistencia.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/src/main/java/dad/biblioteca/Main.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/src/test/java/dad/biblioteca/AppTest.java;C:/Users/Dani-PC/Desktop/BibliotecaReal/biblioteca.xml;C:/Users/Dani-PC/Desktop/BibliotecaReal/pom.xml" />
-  </component>
-</project>
